@@ -1,4 +1,4 @@
-# MyShoppingList-Phonegap-Apache-Cordova---Mobile-H-brido
+# MyShoppingList-App-Phonegap
 Projeto de lista de comprar com função de Add/Remove para dispositivos móveis.
 
 Apache Cordova é um framework de desenvolvimento móvel de código aberto. Ele permite você usar tecnologias web padrão - HTML5, CSS3 e JavaScript para o desenvolvimento multi-plataforma. Os aplicativos são executados dentro de containers direcionados para cada plataforma, e contam com ligações API padrões compatíveis para acessar os recursos de cada dispositivo, tais como sensores, dados, status da rede, entre outros de acordo com Foundation (2015).
