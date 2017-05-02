@@ -1,58 +1,47 @@
 # MyShoppingList-App-Phonegap
-Projeto de lista de comprar com função de Add/Remove para dispositivos móveis.
-
-Apache Cordova é um framework de desenvolvimento móvel de código aberto. Ele permite você usar tecnologias web padrão - HTML5, CSS3 e JavaScript para o desenvolvimento multi-plataforma. Os aplicativos são executados dentro de containers direcionados para cada plataforma, e contam com ligações API padrões compatíveis para acessar os recursos de cada dispositivo, tais como sensores, dados, status da rede, entre outros de acordo com Foundation (2015).
-
-Este framework é recomendado quando um desenvolvedor tem os seguintes objetivos para com sua aplicação:
-
-• Criar um aplicativo mobile compatível com diversas plataformas, sem precisar criar um
-aplicativo codificado com a linguagem de programação nativa de cada plataforma, exemplo: Android, IOs, Windows Phone.
-
-• Disponibilizar sua aplicação em várias lojas web de aplicativos, exemplo: Google Play, Apple Store, etc.
-
-• Utilizar uma mistura de componentes nativos da plataforma com componentes WebView (janela do navegador de internet), ou desenvolver algum plug-in para comunicação destes componentes.
-
-Aplicativos que usam o PhoneGap se tornam aplicativos compatíveis com a plataforma e SDKs desejada, e pode ser disponibilizado para instalação de loja de cada smartphone. Ao usar as APIs do PhoneGap, um aplicativo pode ser construído sem qualquer código nativo (Java, Objective-C, C#, entre outros) da plataforma a ser disponibilizado o software. Em vez disso, tecnologias Web são utilizadas, e eles são hospedados no próprio dispositivo localmente, o código é compilado junto ao código nativo, dispensando a necessidade de um servidor HTTP remoto para hospedar o código web, segundo Júnior, OLIVEIRA e JÙNIOR (2015).
 
 
-De acordo com Foundation (2015, tradução nossa), Um aplicativo codificado utilizando a plataforma Apache Cordova raramente será tão rápido quanto um aplicativo codificado em linguagem nativa da plataforma do dispositivo móvel, uma vez que o código nativo tem acesso direto ao hardware do dispositivo. Além disso, um aplicativo híbrido ou web mobile nem sempre poderá utilizar do uso de todos os recursos de hardware do dispositivo móvel, como por exemplo: câmera, acelerômetro, entre outros, pois para utilizar desses recursos é preciso utilizar-se de plug-ins que fazem a ponte de comunicação, que podem ou não ser encontrados dependendo de sua especificidade.
+Buy list design with Add / Remove function for mobile devices.
 
-Nesse laboratório/repositório segue o código de uma Lista de Compras com as funções de Add/Remove.
+Apache Cordova is an open source mobile development framework. It allows you to use standard web technologies - HTML5, CSS3 and JavaScript for multi-platform development. Applications run within containers targeted to each platform, and rely on compatible standard API connections to access the capabilities of each device, such as sensors, data, network status, and others according to Foundation (2015).
 
-Este laboratório é de nível básico, integrando as tecnologias dos frameworks Phonegap e AngularJS.
+This framework is recommended when a developer has the following goals for their application:
 
-Para instalar o framework Phonegap/Apache Cordova, segue o comando referente ao terminal Linux:
+• Create a mobile application compatible with several platforms, without having to create an application coded with the programming language native to each platform, for example: Android, IOs, Windows Phone.
 
-#Instalação NodeJS:
+• Make your app available in several application web stores, eg Google Play, Apple Store, etc.
 
-curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash - ;
-sudo apt-get install -y nodejs ;
+• Use a mix of native platform components with WebView components (browser window), or develop some plug-in for communication of these components.
 
-#Phonegap e libs para Android:
+Applications that use PhoneGap become applications that are compatible with the platform and SDKs you want, and can be made available for store installation of each smartphone. When using the PhoneGap APIs, an application can be built without any native code (Java, Objective-C, C #, among others) of the platform being made available. Instead, Web technologies are used, and they are hosted on the device locally, the code is compiled next to the native code, dispensing with the need for a remote HTTP server to host the web code, according to Júnior, Oliveira and Junior (2015) .
 
-sudo npm install -g phonegap  ;
-sudo apt-get install ia32-libs ;
+According to Foundation (2015), an application encoded using the Apache Cordova platform will rarely be as fast as a native language encoded application on the mobile device platform, since native code has direct access to device hardware. In addition, a hybrid application or web mobile can not always use all the hardware features of the mobile device, such as: camera, accelerometer, among others, because to use these features you need to use plug-ins Which make the bridge of communication, which may or may not be found depending on its specificity.
 
+In this lab / repository follows the code of a Shopping List with the Add / Remove functions.
 
-Segue os comandos abaixo para desdenvolvimento do projeto:
-Obs1: ao executar "phonegap serve" o App já está disponível para acessar no browser do dispositivo mobile ou notebook.
-Obs2: após criar os projetos, os comandos devem ser executados dentro do diretório do projeto.
+This lab is a basic level, integrating the technologies of the Phonegap and AngularJS frameworks.
 
-Segue a lista de comandos para executar no terminal Linux:
+To install the Phonegap / Apache Cordova framework, follow the command for the Linux terminal:
 
-1- Criando projeto:
-phonegap create PhonegapProject io.phonegap.hello PhonegapApp
+# NodeJS Installation:
 
-2- Adicionando Plataforma:
-phonegap platform add android
-phonegap platform add ios
-phonegap platform add windows
+Curl -sL https://deb.nodesource.com/setup_7.x | Sudo -E bash -; Sudo apt-get install -y nodejs;
 
-3- Disponibilizar serviço:
-phonegap serve
+#Phonegap and libs for Android:
 
+Sudo npm install -g phonegap; Sudo apt-get install ia32-libs;
 
-REFERÊNCIAS:
+Follow the commands below to develop the project: Obs1: when running "phonegap serves" the App is already available to access in the browser of the mobile device or notebook. Obs2: After creating the projects, the commands must be executed within the project directory.
+
+Here is the list of commands to run on the Linux terminal:
+
+1- Creating project: phonegap create PhonegapProject io.phonegap.hello PhonegapApp
+
+2 - Adding Platform: phonegap platform add android phonegap platform add ios phonegap platform add windows
+
+3- Provide service: phonegap serves
+
+REFERENCES:
 
 FOUNDATION, T. A. S. Cordova Documentation. 2015. Cordova Documentation. Disponível em: <https://cordova.apache.org/docs/en/latest/guide/overview/index.html>. Acesso em: 13 jul. 2016.
 
