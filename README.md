@@ -22,18 +22,15 @@ Nesse laboratório/repositório segue o código de uma Lista de Compras com as f
 Este laboratório é de nível básico, integrando as tecnologias dos frameworks Phonegap e AngularJS.
 
 Para instalar o framework Phonegap/Apache Cordova, segue o comando referente ao terminal Linux:
-####################################################################
-#NodeJS
+#######################################################################
+#Instalação NodeJS
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash - ;
 sudo apt-get install -y nodejs ;
 
-#Apache Cordova
-sudo npm install -g cordova ;
+#Phonegap e libs para Android
+sudo npm install -g phonegap  ;
 sudo apt-get install ia32-libs ;
-
-#Phonegap
-sudo npm install -g phonegap ;
-####################################################################
+#######################################################################
 
 Segue os comandos abaixo para desdenvolvimento do projeto:
 Obs1: ao executar "phonegap serve" o App já está disponível para acessar no browser do dispositivo mobile ou notebook.
@@ -49,7 +46,7 @@ phonegap platform add android
 phonegap platform add ios
 phonegap platform add windows
 
-3- Disponibilizar serviço
+3- Disponibilizar serviço>
 phonegap serve
 
 
