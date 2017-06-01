@@ -1,4 +1,4 @@
-# MyShoppingList-App-Phonegap
+# MyShoppingList-App-Phonegap-JavaScript
 
 
 Buy list design with Add / Remove function for mobile devices.
